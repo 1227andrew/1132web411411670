@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Web Page.</title>
+    <link rel="stylesheet" href="index.css" />
+    <style>
+      iframe {
+        resize: both;
+        overflow: auto;
+      }
+    </style>
+  </head>
+
+  <body>
+    <nav class="nav">
+      <div class="nav-img">
+        <img src="le.jpg" alt="" style="width: 50%; height: auto" />
+      </div>
+      <ul class="nav-link">
+        <li onclick="openiframe(1)"><a href="#">test</a></li>
+        <li onclick="openiframe(2)"><a href="#">card</a></li>
+        <li onclick="openiframe(3)"><a href="#">temp</a></li>
+        <li onclick="openiframe(4)"><a href="#">target2</a></li>
+      </ul>
+    </nav>
+    <div class="show-classdemo">
+      <iframe src="target.html" frameborder="1"></iframe>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
