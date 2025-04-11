@@ -27,6 +27,12 @@ git clone "your_github_repository_link"
    ![](picture/13.JPG)
    更新檔案資訊於暫存區域
 
+先進去資料夾
+
+```
+/cd 1132web411411670
+```
+再來add
 ```
 git add .
 ```
