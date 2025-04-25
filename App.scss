@@ -1,0 +1,57 @@
+function App(){
+
+    return (
+
+    <div className='back'>
+    <Earth/>
+    </div>
+
+    );
+}
+
+const Earth()=>{
+  return(
+    <div className="earth">
+      <h2>hello word</h2>
+      <div className="logo-container">
+        <img className="logo" src="">
+      </div>
+    <p> this is my react code</p>
+    </div>
+    );
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+.back{
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(10px + 2vim);
+}
+
+.earth{
+  text-align: center;
+  background-color: black;
+  color: aliceblue;
+  width: 500px;
+  height: auto;
+  border: 2px solid gray;
+  border-radius: 2%;
+  padding: 10px;
+
+  .logo-container{
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+    object-fit: contain;
+  }
+  .logo{
+    width: 500px;
+    height: auto;
+  }
+}
